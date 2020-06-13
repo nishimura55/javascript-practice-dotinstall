@@ -9,6 +9,7 @@
     let startTime;
     let timeoutId;
     let elapsedTime = 0;
+    
 
     function countUp() {
         const d = new Date(Date.now() - startTime + elapsedTime);
